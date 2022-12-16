@@ -2,7 +2,7 @@
 <H3 align="center"><span style="font-family:Times New Roman;font-size:80%;color:black">Autor: VR ROJAS</span></H3>
 <H3 align="center"><span style="font-family:Times New Roman;font-size:90%;color:black">Web : <a href="https://vrrp.github.io/">https://vrrp.github.io/</a></span></H3>
 
-## Módulo 1
+## Índices Térmicos
 * [01 Introduction](https://github.com/vrrp/Workshop2018Python/blob/master/Modulo1/1%20-%20Introducci%C3%B3n.ipynb)
 * [02 Estructura y control de datos](https://github.com/vrrp/Workshop2018Python/blob/master/Modulo1/2%20-%20Estructura_y_control_de_datos.ipynb)
 * [03 Control de flujos](https://github.com/vrrp/Workshop2018Python/blob/master/Modulo1/3%20-%20Control_de_flujos%20%20.ipynb)
@@ -11,3 +11,38 @@
 * [06 Módulos y Paquetes](https://github.com/vrrp/Workshop2018Python/blob/master/Modulo1/6%20-%20M%C3%B3dulos_y_paquetes.ipynb)
 * [07 Programación Orientada a Objetos (POO)](https://github.com/vrrp/Workshop2018Python/blob/master/Modulo1/7%20-%20Programaci%C3%B3n_orientada_a_objetos_POO.ipynb)
 * [08 Bibliotecas estándar de Python](https://github.com/vrrp/Workshop2018Python/blob/master/Modulo1/8%20-%20Biblioteca_estandar_de_python.ipynb)
+
+## Índices Hidrológicos
+
+```sh
+sudo apt-get install texlive-latex-base texlive-fonts-recommended texlive-latex-extra 
+```
+```md
+// src/01-introduction.md
+# Introduction
+
+For more information, check the [Usage] chapter.
+
+// src/02-installation.md
+# Usage
+
+...
+
+Syntax highlighting
+
+``` js
+var foo = function (bar) {
+  return bar++;
+};
+
+console.log(foo(5));
+```
+
+
+### Tables
+
+| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
