@@ -7,6 +7,8 @@
 
 [Descargar Anaconda](https://www.anaconda.com/products/distribution)
 
+Instalar Python y Anaconda en [Linux](https://github.com/vrrp/Workshop2018Python/blob/master/Modulo1/1%20-%20Introducci%C3%B3n.ipynb)
+
 ## Librerias de Python
 El scritp ```instalar_librerias_python.py```, permite instalar todas las librerias
 necesarias para usar el módulo ```indices_bioclimaticos.py ```
