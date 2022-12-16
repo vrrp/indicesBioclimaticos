@@ -4,11 +4,12 @@
 
 ## Instalar: Python y Anaconda
 [Descargar Python](https://www.python.org/)
+
 [Descargar Anaconda](https://www.anaconda.com/products/distribution)
 
 ## Librerias de Python
-El scritp ```sh instalar_librerias_python.py ``` permite instalar todas las librerias
-necesarias para usar el módulo ```sh inndices_bioclimaticos.py ```
+El scritp ```instalar_librerias_python.py```, permite instalar todas las librerias
+necesarias para usar el módulo ```indices_bioclimaticos.py ```
 
 ## Módulo de índices bioclimáticos en Python
 ``` sh
