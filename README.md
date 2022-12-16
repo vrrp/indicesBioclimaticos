@@ -14,6 +14,7 @@ python instalar_librerias_necesarias.py
 indices_bioclimaticos.py
 ```
 ## Explorar: clases y métodos del módulo índices bioclimáticos
+### Explorar: módulo
 ``` py
 import indices_bioclimaticos as iibb
 
@@ -33,6 +34,30 @@ Modulo:
         graficar_serie_tiempo
         graficar_hlineas
         graficar_mapa
+```
+### Explorar: Clases
+``` py
+import indices_bioclimaticos as iibb
+
+print(iibb.indices_termicos__doc__)
+```
+``` sh
+Clase:
+        indices_termicos
+
+        Metodo:
+            ihg() : indice heliotermico de geslim
+            amplitud_termica(arg2)
+            tiempo_termico(arg1)
+            indice_termal_general(arg1)
+            unidades_calor(arg1)
+            calor_magnitud_dia(arg1)
+            indice_estres_calor(arg1, arg2)
+            gdd(arg1, arg2): grados dias de crecimiento
+            gddm(arg1, arg2): grados dias de crecimiento modificado
+        Parametros:
+            arg1: "a", "ar", "d"
+            arg2: t_bae = [valor numerico]
 ```
 
 ## Índices Térmicos
