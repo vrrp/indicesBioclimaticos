@@ -1,6 +1,21 @@
 <H1 align="center"><span style="font-family:Times New Roman;font-size:160%;color:#008080"><b>Índices Bioclimáticos</b></span></H1>
-<H3 align="center"><span style="font-family:Times New Roman;font-size:60%;color:black">VR ROJAS</span></H3>
-<H3 align="center"><span style="font-family:Times New Roman;font-size:60%;color:black">Web : <a href="https://vrrp.github.io/">https://vrrp.github.io/</a></span></H3>
+<H5 align="center"><span style="font-family:Times New Roman;font-size:20%;color:black">VR ROJAS</span></H5>
+<H3 align="center"><span style="font-family:Times New Roman;font-size:20%;color:black">Web : <a href="https://vrrp.github.io/">https://vrrp.github.io/</a></span></H3>
+## Instalar Anaconda
+## Librerias de Python
+```sh
+python instalar_librerias_necesarias.py
+``
+
+## Módulo de índices bioclimáticos en Python
+``` sh
+indices_bioclimaticos.py
+```
+## Explorar las clases del módulo de índices bioclimáticos
+``` py
+import indices_bioclimaticos as iibb
+print(iibb.__doc__)
+```
 
 ## Índices Térmicos
 | Archivo Python | Nombre de índice |
@@ -26,30 +41,3 @@
 | ```vrrp_iihh_06_exceso_hidrico.py ```| [Exceso hídrico.]() |
 | ```vrrp_iihh_07_indice_humedad.py ```| [Índice de humedad.]() |
 | ```vrrp_iihh_08_IBH.py ```| [Índice de bienestar hídrico.]() |
-
-```sh
-sudo apt-get install texlive-latex-base texlive-fonts-recommended texlive-latex-extra 
-```
-
-Syntax highlighting
-``` py
-import indices_bioclimaticos as iibb
-print(help(iibb))
-```
-
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-
-### Tables
-
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
