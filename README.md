@@ -13,6 +13,11 @@
 * [08 Bibliotecas estándar de Python](https://github.com/vrrp/Workshop2018Python/blob/master/Modulo1/8%20-%20Biblioteca_estandar_de_python.ipynb)
 
 ## Índices Hidrológicos
+| Archivo Python | Nombre de índice |
+| ------ | ----------- |
+| ```sh vrrp_iitt_01_ih_geslin.py   | [Indice Heliotérmico de Geslin (IHG).]() |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
 
 ```sh
 sudo apt-get install texlive-latex-base texlive-fonts-recommended texlive-latex-extra 
