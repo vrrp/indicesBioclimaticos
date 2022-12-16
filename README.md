@@ -25,15 +25,15 @@ print(iibb.__doc__)
 Modulo:
     indices_bioclimaticos.py
 
-    Clases:
-        extraer
-        indices_termicos
-        indices_hidricos
-        guardar_archivo
-    Metodos:
-        graficar_serie_tiempo
-        graficar_hlineas
-        graficar_mapa
+Clases:
+    extraer
+    indices_termicos
+    indices_hidricos
+    guardar_archivo
+Metodos:
+    graficar_serie_tiempo
+    graficar_hlineas
+    graficar_mapa
 ```
 ### Explorar: Clases
 ``` py
@@ -43,13 +43,12 @@ print(iibb.extraer.__doc__)
 ```
 ``` sh
 Clase:
-        extrar
-
-        Metodo:
-            variable(arg1, arg2)
-        Parametros:
-            arg1: ruta de directorio data
-            arg2: nombre de archivo netcdf
+    extrar
+Metodo:
+    variable(arg1, arg2)
+Parametros:
+    arg1: ruta de directorio data
+    arg2: nombre de archivo netcdf
 ```
 
 
@@ -60,21 +59,20 @@ print(iibb.indices_termicos.__doc__)
 ```
 ``` sh
 Clase:
-        indices_termicos
-
-        Metodo:
-            ihg() : indice heliotermico de geslim
-            amplitud_termica(arg2)
-            tiempo_termico(arg1)
-            indice_termal_general(arg1)
-            unidades_calor(arg1)
-            calor_magnitud_dia(arg1)
-            indice_estres_calor(arg1, arg2)
-            gdd(arg1, arg2): grados dias de crecimiento
-            gddm(arg1, arg2): grados dias de crecimiento modificado
-        Parametros:
-            arg1: "a", "ar", "d"
-            arg2: t_bae = [valor numerico]
+    indices_termicos
+Metodo:
+    ihg() : indice heliotermico de geslim
+    amplitud_termica(arg2)
+    tiempo_termico(arg1)
+    indice_termal_general(arg1)
+    unidades_calor(arg1)
+    calor_magnitud_dia(arg1)
+    indice_estres_calor(arg1, arg2)
+    gdd(arg1, arg2): grados dias de crecimiento
+    gddm(arg1, arg2): grados dias de crecimiento modificado
+ Parametros:
+    arg1: "a", "ar", "d"
+    arg2: t_bae = [valor numerico]
 ```
 
 ## Índices Térmicos
