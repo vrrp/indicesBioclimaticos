@@ -11,7 +11,7 @@
 El scritp ```instalar_librerias_python.py```, permite instalar todas las librerias
 necesarias para usar el módulo ```indices_bioclimaticos.py ```
 
-## Módulo de índices bioclimáticos en Python
+## Módulo: índices bioclimáticos
 ``` sh
 indices_bioclimaticos.py
 ```
