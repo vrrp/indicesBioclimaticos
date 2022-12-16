@@ -18,26 +18,19 @@ indices_bioclimaticos.py
 import indices_bioclimaticos as iibb
 print(iibb.__doc__)
 ```
-``` sh
-GUARDAR ARRAY EN FORMATO TIF Y NETCDF
-    Parametros:
-        self.save_file_name: cadena de caracteres, 
-        self.data          : array 2D, 3D 
-        self.lats          : array 1D
-        self.lons          : array 1D        
+``` shINDICES BIOCLIMATICOS PARA MAIZ Y CAFE
+
+Modulo:
+    indices_bioclimaticos.py
 
     Metodos:
-        tif    : Guardar array de 2D en formato tif
-        netcdf : Guardar array de 3D en formato netcdf
-
-    Ejemplo:
-        import indices_bioclimaticos as iibb
-
-        guardar_archivo = iibb.guardar_archivo(dic)
-        guardar_archivo.tif()
-
-        donde, [dic] es un diccionario que contiene los datos y atributos 
-        para generar el archivo en formato tif y netcdf.
+        extraer
+        indices_termicos
+        indices_hidricos
+        graficar_serie_tiempo
+        graficar_hlineas
+        graficar_mapa
+        guardar_archivo
 ```
 
 ## Índices Térmicos
