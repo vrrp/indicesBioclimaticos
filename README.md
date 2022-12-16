@@ -1,6 +1,7 @@
 <H1 align="center"><span style="font-family:Times New Roman;font-size:160%;color:#008080"><b>Índices Bioclimáticos</b></span></H1>
 <H6 align="center"><span style="font-family:Times New Roman;font-size:20%;color:black">VR ROJAS</span></H6>
 <H6 align="center"><span style="font-family:Times New Roman;font-size:20%;color:purple">Web : <a href="https://vrrp.github.io/">https://vrrp.github.io/</a></span></H6>
+
 ## Instalar Anaconda
 
 ## Librerias de Python
