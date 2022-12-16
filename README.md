@@ -15,7 +15,7 @@
 ## Índices Hidrológicos
 | Archivo Python | Nombre de índice |
 | ------ | ----------- |
-| ```vrrp_iitt_01_ih_geslin.py ```| [Indice Heliotérmico de Geslin (IHG).]() |
+| ```vrrp_iihh_01_et_referencia.py```| [Evapotranspiracion de referencia (ET_o).]() |
 | engine | engine to be used for processing templates. Handlebars is the default. |
 | ext    | extension to be used for dest files. |
 
