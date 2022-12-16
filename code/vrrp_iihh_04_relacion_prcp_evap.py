@@ -3,10 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import indices_bioclimaticos as iibb
 
-#print(help(iibb))
-#print(iibb.__doc__)
-#print(iibb.ih_geslin.__doc__)
-#print(iibb.climatologia.__doc__)
+
 data_path= "/home/data/senamhi/pisco_data/"
 img_path = "/home/data/senamhi/indices_bioclimaticos/img/"
 file_name_etp = "pisco_v2p1_etp_san_martin.nc"
@@ -26,7 +23,7 @@ evap = fo_etp.variable(nombre_var="etp",   rango_tiempo=['1998-08-01','1999-10-2
 # Graficar serie de tiempo en punto de grilla
 #-------------------------------------------------------------------------------
 img_serie_tiempo = dict(data = [prcp,evap],
-                        punto_grilla = [76.77, 6.28],
+                        punto_grilla = [-76.77, -6.28],
                         titulo_derecha = "01 AGO 1998 - 21 OCT 1999 ",
                         titulo_izquierda = "ÍNDICE BIOCLIMÁTICO: ESTACIÓN PACAYZAPA",
                         nombre_ejey = "(mm/día)",

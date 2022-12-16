@@ -3,10 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import indices_bioclimaticos as iibb
 
-#print(help(iibb))
-#print(iibb.__doc__)
-#print(iibb.ih_geslin.__doc__)
-#print(iibb.climatologia.__doc__)
 data_path= "/home/data/senamhi/pisco_data/"
 img_path = "/home/data/senamhi/indices_bioclimaticos/img/"
 file_name = "pisco_v2p1_airtemp_san_martin.nc"
@@ -36,8 +32,6 @@ gdd_a = ii_tt.gddm("a", tb=10)
 gdd_ar = ii_tt.gddm("ar", tb=10)
 gdd_d = ii_tt.gddm("d", tb=10)
 lons = gdd_a.lons; lats=gdd_a.lats
-
-#print(lons)
 print(np.min(gdd_a.values), np.max(gdd_a.values))
 
 # Extraer valores en punto de grilla de indice bioclimatico
@@ -57,7 +51,7 @@ df = iibb.extraer_indice_punto_grilla(gdd_a, df_aws, nombre_iibb="gddm_01_21sep1
 # Graficar serie de tiempo en punto de grilla
 #-------------------------------------------------------------------------------
 img_serie_tiempo = dict(data = gdd_ar,
-                        punto_grilla = [76.77, 6.28],
+                        punto_grilla = [-76.77, -6.28],
                         titulo_derecha = "01-21 SETIEMBRE 1999",
                         titulo_izquierda = "ÍNDICE BIOCLIMÁTICO: ESTACIÓN PACAYZAPA",
                         nombre_ejey = "Grados días de crecimiento mod (°C)",

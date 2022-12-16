@@ -1,4 +1,18 @@
-"""  INDICES BIOCLIMATICOS PARA MAIZ Y CAFE"""
+"""  INDICES BIOCLIMATICOS PARA MAIZ Y CAFE
+
+Modulo:
+    indices_bioclimaticos.py
+
+Clases:
+    extraer
+    indices_termicos
+    indices_hidricos
+    guardar_archivo
+Metodos:
+    graficar_serie_tiempo
+    graficar_hlineas
+    graficar_mapa
+"""
 __author__ = "VR ROJAS"
 __license__="GPL"
 __version__="0.1"
@@ -62,8 +76,14 @@ class guardar_archivo(object):
 
 class extraer(object):
     """
-    Aqui va descripcion
-
+    Clase:
+        extrar
+    
+    Metodo:
+        variable(arg1, arg2)
+    Parametros:
+        arg1: ruta de directorio data
+        arg2: nombre de archivo netcdf
     """
     def __init__(self, data_path, file_name):
         self.ds = xr.open_dataset(data_path+file_name)
@@ -85,28 +105,22 @@ class extraer(object):
                     return self.ds_data
 
 class indices_termicos(object):
-    """DETERMINAR EL INDICE HELIOTERMICO DE GESLIN (ihg)
-    \t\t igh = f(Tm, N)
-
-    Tm es la temperatura media
-    N es el fotoperiodo
-
+    """
+    Clase:
+        indices_termicos
+    Metodo:
+        ihg() : indice heliotermico de geslim
+        amplitud_termica(arg2)
+        tiempo_termico(arg1)
+        indice_termal_general(arg1)
+        unidades_calor(arg1)
+        calor_magnitud_dia(arg1)
+        indice_estres_calor(arg1, arg2)
+        gdd(arg1, arg2): grados dias de crecimiento
+        gddm(arg1, arg2): grados dias de crecimiento modificado
     Parametros:
-        ds_temp_min: estructura de datos de 3D
-        ds_temp_max: estructura de datos de 3D
-        ds_lats    : estructura de datos de 1D
-
-    Metodos:
-        extraer_periodo : devuelve dos objetos (array 1D)
-        extraer_indice  : devuelve un objeto (array 2D)
-
-    Ejemplo:
-
-        import indices_bioclimaticos as iibb
-
-        ii_tt = iibb.indices_termicos(temp_min, temp_max)
-        fecha_greg, fecha_jj = ii_tt.extraer_periodo()
-        ihg = ii_tt.ihg()
+        arg1: "a", "ar", "d"
+        arg2: t_base = [valor numerico]
     """
     def __init__(self,ds_temp_min, ds_temp_max):
         self.ds_temp_min = ds_temp_min

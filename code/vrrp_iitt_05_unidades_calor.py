@@ -56,7 +56,7 @@ df = iibb.extraer_indice_punto_grilla(chu_a, df, nombre_iibb="chu_01_21sep1999")
 # Graficar serie de tiempo en punto de grilla
 #-------------------------------------------------------------------------------
 img_serie_tiempo = dict(data = chu_ar,
-                        punto_grilla = [76.77, 6.28],
+                        punto_grilla = [-76.77, -6.28],
                         titulo_derecha = "01-21 SETIEMBRE 1999",
                         titulo_izquierda = "ÍNDICE BIOCLIMÁTICO: ESTACIÓN PACAYZAPA",
                         nombre_ejey = "Unidades de calor (°C)",

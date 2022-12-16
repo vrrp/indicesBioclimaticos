@@ -3,10 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import indices_bioclimaticos as iibb
 
-#print(help(iibb))
-#print(iibb.__doc__)
-#print(iibb.ih_geslin.__doc__)
-#print(iibb.climatologia.__doc__)
 data_path= "/home/data/senamhi/pisco_data/"
 img_path = "/home/data/senamhi/indices_bioclimaticos/img/"
 file_name = "pisco_v2p1_airtemp_san_martin.nc"
