@@ -7,7 +7,7 @@
 ## Librerias de Python
 ```sh
 python instalar_librerias_necesarias.py
-``
+```
 
 ## Módulo de índices bioclimáticos en Python
 ``` sh
@@ -17,6 +17,27 @@ indices_bioclimaticos.py
 ``` py
 import indices_bioclimaticos as iibb
 print(iibb.__doc__)
+```
+``` sh
+GUARDAR ARRAY EN FORMATO TIF Y NETCDF
+    Parametros:
+        self.save_file_name: cadena de caracteres, 
+        self.data          : array 2D, 3D 
+        self.lats          : array 1D
+        self.lons          : array 1D        
+
+    Metodos:
+        tif    : Guardar array de 2D en formato tif
+        netcdf : Guardar array de 3D en formato netcdf
+
+    Ejemplo:
+        import indices_bioclimaticos as iibb
+
+        guardar_archivo = iibb.guardar_archivo(dic)
+        guardar_archivo.tif()
+
+        donde, [dic] es un diccionario que contiene los datos y atributos 
+        para generar el archivo en formato tif y netcdf.
 ```
 
 ## Índices Térmicos
