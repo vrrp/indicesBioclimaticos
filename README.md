@@ -39,7 +39,24 @@ Modulo:
 ``` py
 import indices_bioclimaticos as iibb
 
-print(iibb.indices_termicos__doc__)
+print(iibb.extraer.__doc__)
+```
+``` sh
+Clase:
+        extrar
+
+        Metodo:
+            variable(arg1, arg2)
+        Parametros:
+            arg1: ruta de directorio data
+            arg2: nombre de archivo netcdf
+```
+
+
+``` py
+import indices_bioclimaticos as iibb
+
+print(iibb.indices_termicos.__doc__)
 ```
 ``` sh
 Clase:
