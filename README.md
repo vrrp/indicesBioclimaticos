@@ -1,23 +1,31 @@
 <H1 align="center"><span style="font-family:Times New Roman;font-size:160%;color:#008080"><b>Índices Bioclimáticos</b></span></H1>
-<H3 align="center"><span style="font-family:Times New Roman;font-size:80%;color:black">Autor: VR ROJAS</span></H3>
-<H3 align="center"><span style="font-family:Times New Roman;font-size:90%;color:black">Web : <a href="https://vrrp.github.io/">https://vrrp.github.io/</a></span></H3>
+<H3 align="center"><span style="font-family:Times New Roman;font-size:60%;color:black">VR ROJAS</span></H3>
+<H3 align="center"><span style="font-family:Times New Roman;font-size:60%;color:black">Web : <a href="https://vrrp.github.io/">https://vrrp.github.io/</a></span></H3>
 
 ## Índices Térmicos
-* [01 Introduction](https://github.com/vrrp/Workshop2018Python/blob/master/Modulo1/1%20-%20Introducci%C3%B3n.ipynb)
-* [02 Estructura y control de datos](https://github.com/vrrp/Workshop2018Python/blob/master/Modulo1/2%20-%20Estructura_y_control_de_datos.ipynb)
-* [03 Control de flujos](https://github.com/vrrp/Workshop2018Python/blob/master/Modulo1/3%20-%20Control_de_flujos%20%20.ipynb)
-* [04 Entrada y salida de datos](https://github.com/vrrp/Workshop2018Python/blob/master/Modulo1/4%20-%20Entrada_salida_datos.ipynb)
-* [05 Funciones](https://github.com/vrrp/Workshop2018Python/blob/master/Modulo1/5%20-%20Funciones.ipynb)
-* [06 Módulos y Paquetes](https://github.com/vrrp/Workshop2018Python/blob/master/Modulo1/6%20-%20M%C3%B3dulos_y_paquetes.ipynb)
-* [07 Programación Orientada a Objetos (POO)](https://github.com/vrrp/Workshop2018Python/blob/master/Modulo1/7%20-%20Programaci%C3%B3n_orientada_a_objetos_POO.ipynb)
-* [08 Bibliotecas estándar de Python](https://github.com/vrrp/Workshop2018Python/blob/master/Modulo1/8%20-%20Biblioteca_estandar_de_python.ipynb)
+| Archivo Python | Nombre de índice |
+| ------ | ----------- |
+| ```vrrp_iitt_01_ih_geslin.py ```| [Indice Heliotérmico de Geslin.]() |
+| ```vrrp_iitt_02_amplitud_termica.py ```| [Ampmlitud térmica.]() |
+| ```vrrp_iitt_03_tiempo_termico.py ```| [Tiempo térmico.]() |
+| ```vrrp_iitt_04_indice_termal_general.py ```| [Índice termal general.]() |
+| ```vrrp_iitt_05_unidades_calor.py ```| [Unidades de calor.]() |
+| ```vrrp_iitt_06_calor_magnitud_dia.py ```| [Calor magnitud día.]() |
+| ```vrrp_iitt_07_indice_estres_calor.py ```| [Índice de estrés por calor.]() |
+| ```vrrp_iitt_08_gdd.py ```| [Grados días de crecimiento.]() |
+| ```vrrp_iitt_09_gddm.py ```| [Grados días de crecimiento modificado.]() |
 
 ## Índices Hidrológicos
 | Archivo Python | Nombre de índice |
 | ------ | ----------- |
-| ```vrrp_iihh_01_et_referencia.py```| [Evapotranspiracion de referencia (ET_o).]() |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
+| ```vrrp_iihh_01_et_referencia.py```| [Evapotranspiracion de referencia.]() |
+| ```vrrp_iihh_02_lluvia_acumulada.py ```| [Precipitación acumulada.]() |
+| ```vrrp_iihh_03_prcp_menos_evap.py ```| [Precipitación menos evapotranspiración de referencia]() |
+| ```vrrp_iihh_04_relacion_prcp_evap.py ```| [Relación Precipitación entre evapotranspiración de referencia.]() |
+| ```vrrp_iihh_05_deficit_hidrico.py ```| [Déficit hídrico.]() |
+| ```vrrp_iihh_06_exceso_hidrico.py ```| [Exceso hídrico.]() |
+| ```vrrp_iihh_07_indice_humedad.py ```| [Índice de humedad.]() |
+| ```vrrp_iihh_08_IBH.py ```| [Índice de bienestar hídrico.]() |
 
 ```sh
 sudo apt-get install texlive-latex-base texlive-fonts-recommended texlive-latex-extra 
