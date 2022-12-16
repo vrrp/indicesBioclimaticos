@@ -2,12 +2,13 @@
 <H6 align="center"><span style="font-family:Times New Roman;font-size:20%;color:black">VR ROJAS</span></H6>
 <H6 align="center"><span style="font-family:Times New Roman;font-size:20%;color:purple">Web : <a href="https://vrrp.github.io/">https://vrrp.github.io/</a></span></H6>
 
-## Instalar Anaconda
+## Instalar: Python y Anaconda
+[Descargar Python](https://www.python.org/)
+[Descargar Anaconda](https://www.anaconda.com/products/distribution)
 
 ## Librerias de Python
-```sh
-python instalar_librerias_necesarias.py
-```
+El scritp ```sh instalar_librerias_python.py ``` permite instalar todas las librerias
+necesarias para usar el módulo ```sh inndices_bioclimaticos.py ```
 
 ## Módulo de índices bioclimáticos en Python
 ``` sh
