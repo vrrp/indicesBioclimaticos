@@ -1,11 +1,6 @@
-# indicesBioclimaticos
-
-# Python para Geociencias
-<p align="">
-   <img src="https://github.com/vrrp/Workshop2018Python/blob/master/Modulo1/util/pj.jpg" width="800" height="150"/>
-</p>
-
-# Por : Víctor Rojas
+<H1 align="center"><span style="font-family:Times New Roman;font-size:160%;color:#008080"><b>Índices Bioclimáticos</b></span></H1>
+<H3 align="center"><span style="font-family:Times New Roman;font-size:80%;color:black">Autor: VR ROJAS</span></H3>
+<H3 align="center"><span style="font-family:Times New Roman;font-size:90%;color:black">Web : <a href="https://vrrp.github.io/">https://vrrp.github.io/</a></span></H3>
 
 ## Módulo 1
 * [01 Introduction](https://github.com/vrrp/Workshop2018Python/blob/master/Modulo1/1%20-%20Introducci%C3%B3n.ipynb)
