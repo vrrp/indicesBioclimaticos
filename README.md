@@ -32,6 +32,10 @@ sudo apt-get install texlive-latex-base texlive-fonts-recommended texlive-latex-
 ```
 
 Syntax highlighting
+``` py
+import indices_bioclimaticos as iibb
+print(help(iibb))
+```
 
 ``` js
 var foo = function (bar) {
