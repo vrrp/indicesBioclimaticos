@@ -13,25 +13,26 @@ python instalar_librerias_necesarias.py
 ``` sh
 indices_bioclimaticos.py
 ```
-## Explorar las clases del módulo de índices bioclimáticos
+## Explorar: clases y métodos del módulo índices bioclimáticos
 ``` py
 import indices_bioclimaticos as iibb
+
 print(iibb.__doc__)
 ```
-``` sh
-INDICES BIOCLIMATICOS PARA MAIZ Y CAFE
 
+``` sh
 Modulo:
     indices_bioclimaticos.py
 
-    Metodos:
+    Clases:
         extraer
         indices_termicos
         indices_hidricos
+        guardar_archivo
+    Metodos:
         graficar_serie_tiempo
         graficar_hlineas
         graficar_mapa
-        guardar_archivo
 ```
 
 ## Índices Térmicos
