@@ -18,7 +18,8 @@ indices_bioclimaticos.py
 import indices_bioclimaticos as iibb
 print(iibb.__doc__)
 ```
-``` shINDICES BIOCLIMATICOS PARA MAIZ Y CAFE
+``` sh
+INDICES BIOCLIMATICOS PARA MAIZ Y CAFE
 
 Modulo:
     indices_bioclimaticos.py
