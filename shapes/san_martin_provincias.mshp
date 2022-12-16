@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <DATABASE>
+    <FIELDS>
+      <FIELD TYPE="LONGINT">ID_0</FIELD>
+      <FIELD TYPE="STRING">ISO</FIELD>
+      <FIELD TYPE="STRING">NAME_0</FIELD>
+      <FIELD TYPE="LONGINT">ID_1</FIELD>
+      <FIELD TYPE="STRING">NAME_1</FIELD>
+      <FIELD TYPE="LONGINT">ID_2</FIELD>
+      <FIELD TYPE="STRING">NAME_2</FIELD>
+      <FIELD TYPE="STRING">HASC_2</FIELD>
+      <FIELD TYPE="LONGINT">CCN_2</FIELD>
+      <FIELD TYPE="STRING">CCA_2</FIELD>
+      <FIELD TYPE="STRING">TYPE_2</FIELD>
+      <FIELD TYPE="STRING">ENGTYPE_2</FIELD>
+      <FIELD TYPE="STRING">NL_NAME_2</FIELD>
+      <FIELD TYPE="STRING">VARNAME_2</FIELD>
+    </FIELDS>
+  </DATABASE>
+  <SOURCE></SOURCE>
+  <HISTORY saga-version="7.9.1">
+    <TOOL library="shapes_tools" id="28" name="Copy Shapes">
+      <INPUT type="shapes" id="SHAPES" name="Shapes">
+        <FILE>Z:\home\data\shape\PER_adm_shp\PER_adm2.shp</FILE>
+      </INPUT>
+      <OUTPUT type="shapes" id="COPY" name="Copy">PER_adm2</OUTPUT>
+    </TOOL>
+  </HISTORY>
+  <FILE></FILE>
+  <DESCRIPTION></DESCRIPTION>
+  <PROJECTION>
+    <OGC_WKT>GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]</OGC_WKT>
+    <PROJ4>+proj=longlat +a=6378137.000000 +b=6356752.314245 +no_defs</PROJ4>
+    <EPSG>-1</EPSG>
+  </PROJECTION>
+</SAGA_METADATA>
