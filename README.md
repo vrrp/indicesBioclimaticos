@@ -17,16 +17,6 @@
 ```sh
 sudo apt-get install texlive-latex-base texlive-fonts-recommended texlive-latex-extra 
 ```
-```md
-// src/01-introduction.md
-# Introduction
-
-For more information, check the [Usage] chapter.
-
-// src/02-installation.md
-# Usage
-
-...
 
 Syntax highlighting
 
