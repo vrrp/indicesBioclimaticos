@@ -7,6 +7,8 @@
 
 [Descargar Anaconda](https://www.anaconda.com/products/distribution)
 
+[Descargar datos climáticos](https://mega.nz/folder/OQxRUTgI#4vwaVC7fj9MMXjLQCakEqg)
+
 Instalar Python y Anaconda en [Linux](https://github.com/vrrp/Workshop2018Python/blob/master/Modulo1/1%20-%20Introducci%C3%B3n.ipynb)
 
 ## Librerias de Python
