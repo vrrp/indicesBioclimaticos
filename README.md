@@ -19,7 +19,7 @@ crear un entorno virtual usando anaconda. Crear un entorno virtual ``` indicesBi
 conda create -n indicesBioclimaticos
 ```
 
-Luego, activar el entorno virtual ``ìndicesBioclimaticos```, ejecutando la siguiente instrucción:
+Luego, activar el entorno virtual ```ìndicesBioclimaticos```, ejecutando la siguiente instrucción:
 
 ```sh
  conda info -e
