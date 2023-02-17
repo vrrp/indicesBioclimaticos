@@ -1,2 +1,9 @@
 numpy
 matplotlib
+scipy
+pandas
+xarray
+pyproj
+pyshp
+netcdf4
+gdal
