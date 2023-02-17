@@ -12,14 +12,22 @@
 Instalar Python y Anaconda en [Linux](https://github.com/vrrp/Workshop2018Python/blob/master/Modulo1/1%20-%20Introducci%C3%B3n.ipynb)
 
 ## Librerias de Python
-Para instalar todas las librerías necesarias que emplea el  módulo ``ìndices_bioclimaticos```, se recomienda
-crear un entorno virtual usando anaconda. Crear un entorno virtual ```indicesBioclimaticos```.
-```$ conda create -n indicesBioclimaticos```
+Para instalar todas las librerías necesarias que emplea el  módulo ```sh ìndices_bioclimaticos```, se recomienda
+crear un entorno virtual usando anaconda. Crear un entorno virtual ```sh indicesBioclimaticos```.
+
+```sh $ conda create -n indicesBioclimaticos```
+
 Luego, activar el entorno virtual ``ìndicesBioclimaticos```, ejecutando la siguiente instrucción:
-```$ conda info -e```
-```$ conda activate indicesBioclimaticos```
+
+```sh
+$ conda info -e
+$ conda activate indicesBioclimaticos
+```
 Para instalar todas las librería necesarias, ejecutar la siguiente instrucción:
-```$ pip install -r requerimientos.txt``` 
+
+```sh
+$ pip install -r requerimientos.txt
+``` 
 
 
 ## Módulo: índices bioclimáticos
