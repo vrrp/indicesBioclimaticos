@@ -23,7 +23,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import xarray as xr
 import datetime as dt
-from osgeo import gdal, osr, ogr
+#from osgeo import gdal, osr, ogr
 
 class guardar_archivo(object):
     """GUARDAR ARRAY EN FORMATO TIF Y NETCDF
@@ -74,6 +74,7 @@ class guardar_archivo(object):
         dst_ds.GetRasterBand(1).WriteArray(self.data)
         dst_ds.FlushCache()
         dst_ds=None
+
 
 class extraer(object):
     """
@@ -962,7 +963,7 @@ def graficar_mapa(dic, clase_cbar=None):
     ax.set_title(dic["titulo_izquierda"], fontsize=12, loc='left')
     ax.set_title(dic["titulo_derecha"], fontsize=12, loc='right')
     ax.tick_params(axis="both", labelcolor="k", labelsize=14, labelrotation=0)
-    ax.grid(b=True, which='major', color='grey', linestyle='--', alpha=1)
+    ax.grid(True, which='major', color='grey', linestyle='--', alpha=1)
     
     cb = plt.colorbar(img, ticks=ticks, orientation='horizontal', extend=None,#'both',
     	              cax=fig.add_axes([0.11, 0.05, 0.86, 0.02]))

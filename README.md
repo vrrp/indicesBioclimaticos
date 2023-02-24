@@ -23,7 +23,7 @@ Luego, activar el entorno virtual ```ìndicesBioclimaticos```, ejecutando la sig
 
 ```sh
  conda info -e
- conda activate indicesBioclimaticos
+ conda activate indicesBioclimaticos python=3.x
 ```
 Para instalar todas las librería necesarias, ejecutar la siguiente instrucción:
 

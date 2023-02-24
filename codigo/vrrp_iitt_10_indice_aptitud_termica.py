@@ -5,15 +5,16 @@ import indices_bioclimaticos as iibb
 
 # Linux
 #------------------------------------------------------------------------
-#data_path= "/home/data/senamhi/pisco_data/"                
-#shapes_path="/home/data/shape/depart_san_martin/"
-#img_path = "/home/data/senamhi/indices_bioclimaticos/img/"
+data_path= "../data/"                
+shapes_path="../shapes/"
+img_path = "../img/"
 
 # Windows
 #------------------------------------------------------------------------
-data_path= "C:/Users/Victor/Documents/taller_iibb/data/"    
-shapes_path= "C:/Users/Victor/Documents/taller_iibb/shapes/"
-img_path =  "C:/Users/Victor/Documents/taller_iibb/img/"
+#data_path= "C:/Users/Victor/Documents/taller_iibb/data/"    
+#shapes_path= "C:/Users/Victor/Documents/taller_iibb/shapes/"
+#img_path =  "C:/Users/Victor/Documents/taller_iibb/img/"
+
 file_name = "pisco_v2p1_airtemp_san_martin.nc"
 
 # leer archivo netcdf
@@ -53,7 +54,8 @@ img_mapa = dict(data=temp_optima,
                 img_save_name =None,#"MAP_TEMP_OPTIMA_JUL1998_SET1999_win",
                 )
 iibb.graficar_mapa(img_mapa)
-
+plt.show()
+exit()
 # graficar mapa de 3 clases
 #------------------------------------------------------------------------
 img_mapa_3clases = dict(data=temp_optima_3clases,

@@ -6,4 +6,3 @@ xarray
 pyproj
 pyshp
 netcdf4
-gdal
