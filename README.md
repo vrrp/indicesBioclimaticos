@@ -16,14 +16,14 @@ Para instalar todas las librerías necesarias que emplea el  módulo ``` ìndice
 crear un entorno virtual usando anaconda. Crear un entorno virtual ``` indicesBioclimaticos```.
 
 ```sh 
-conda create -n indicesBioclimaticos
+conda create -n indicesBioclimaticos python=3.9
 ```
 
 Luego, activar el entorno virtual ```ìndicesBioclimaticos```, ejecutando la siguiente instrucción:
 
 ```sh
  conda info -e
- conda activate indicesBioclimaticos python=3.x
+ conda activate indicesBioclimaticos
 ```
 Para instalar todas las librería necesarias, ejecutar la siguiente instrucción:
 
